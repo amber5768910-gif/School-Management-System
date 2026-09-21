@@ -1,0 +1,50 @@
+ <header class="panel-heading">
+                Building Table
+                </header>
+
+                <table class="table table-striped table-advance table-hover">
+                    <tbody>
+                    <tr>
+                     <td align=right colspan=9 ><a href="index.php?tag=abuild">Click here to Add</a></td>
+                     </tr>
+                     <tr>
+                <th><i class="icon_profile"></i>Sno</th>
+                <th><i class="icon_profile"></i>Name</th>
+                                  <th><i class="icon_mobile"></i>Condition</th>
+                                 <th><i class="icon_mail_alt"></i>Measures</th>
+                                 <th><i class="icon_mail_alt"></i>Actions</th>
+                                  <th><i></i></th>
+<?php
+error_reporting(0);
+if (!isset($_SESSION))
+{
+session_start();
+}
+	include("../../connect.php");
+  $tag= "";
+  $msg="" ;
+  $i=1;
+   $sql=mysqli_query($con, "SELECT * FROM building");
+     if(mysqli_num_rows($sql) >= 1)
+            {
+   while($ROW=mysqli_fetch_array($sql))
+              {
+      $id=$ROW['id'];         
+    $TXTn=$ROW['name'];
+    $txtcon=$ROW['bcondition'];
+    $txtm=$ROW['measures'];
+    echo "<TR><TD>".$i++."</TD><TD>".$TXTn."</TD><TD>".$txtcon."</TD><TD>". $txtm."</TD><TD><a href=index.php?tag=editbu&id=".$ROW['id'].">EDIT</a></TD><td><a href=index.php?tag=editbu&Did=".$ROW['id'].">DELL</a></td></TR>";
+}
+            }
+
+            if($tag=="editbu")
+            {
+                include("editbuilding.php");
+            }
+   if($tag=="abuild")
+            {
+                include("addbuilding.php");
+            }
+?>
+</tr>
+         </tbody>
