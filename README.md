@@ -132,6 +132,37 @@ The project contains:
 * CSS and JavaScript files
 * Images and other assets
 * SQL database structure and sample data
+ ## 📸 Screenshots
+
+### Homepage
+
+![Homepage](Screenshots/homepage.jpeg)
+
+### Login Page
+
+![Login Page](Screenshots/loginpage.jpeg)
+
+### Student Management
+
+![Student Management](Screenshots/students.jpeg)
+
+### Class Management
+
+![Class Management](Screenshots/class.jpeg)
+
+### Examination Results
+
+![Examination Results](Screenshots/examresult.jpeg)
+
+### Student Reports
+
+![Student Reports](Screenshots/insightofstudentreports.jpeg)
+
+### Reports
+
+![Reports](Screenshots/reports1.jpeg)
+
+![Reports](Screenshots/reports2.jpeg)
 
 ## 🔐 Demo Data & Privacy
 
@@ -163,6 +194,5 @@ This project is currently configured for **local development using XAMPP**.
 For deployment to a live hosting server, the database connection settings and server configuration would need to be updated according to the hosting environment.
 
 ## 📄 License
-No open-source license has been applied to this repository.
 No open-source license has been applied to this repository.
 
