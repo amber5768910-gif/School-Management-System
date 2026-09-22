@@ -132,15 +132,15 @@ The project contains:
 * CSS and JavaScript files
 * Images and other assets
 * SQL database structure and sample data
-  ## 📸 Screenshots
-
-### Login Page
-
-![Login Page](Screenshots/loginpage.jpeg)
+ ## 📸 Screenshots
 
 ### Homepage
 
 ![Homepage](Screenshots/homepage.jpeg)
+
+### Login Page
+
+![Login Page](Screenshots/loginpage.jpeg)
 
 ### Student Management
 
