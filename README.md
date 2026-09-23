@@ -1,10 +1,10 @@
 # 🏫 School Management System
 
-A web-based **School Management System** built with PHP and MySQL for managing students, teachers, classes, examinations, results, reports, and role-based access.
+A full-stack **School Management System** built with PHP and MySQL for managing students, teachers, classes, examinations, results, reports, and role-based access.
 
 ## 📌 Project Overview
 
-This project is a full-stack web application developed using **PHP, MySQL, PDO, HTML, CSS, JavaScript, and Bootstrap**.
+This project is a database-driven web application developed using **PHP, MySQL, PDO, HTML5, CSS3, JavaScript, and Bootstrap**.
 
 The system provides a centralized platform for managing common school operations and organizing academic information.
 
@@ -50,7 +50,7 @@ My work included:
 * Developing daily reporting
 * Building the admin panel
 * Implementing search and record management
-* Connecting the application's modules with the database
+* Connecting application modules with the database
 * Building the application from scratch
 
 ---
@@ -88,10 +88,10 @@ The system includes reporting functionality for organizing and viewing student a
 
 The system includes:
 
-* Password verification
 * User authentication
+* Password verification
 * Role-based permissions
-* Controlled access to different parts of the system
+* Controlled access to different parts of the application
 
 ---
 
@@ -124,7 +124,7 @@ The database structure is included in:
 cms.sql
 ```
 
-The database contains **21 tables** designed to manage the different parts of the School Management System.
+The database contains **21 tables** designed to support the different modules of the School Management System.
 
 ---
 
@@ -228,7 +228,7 @@ If your local MySQL configuration is different, update the database connection s
 
 ### 7. Open the Project
 
-Open the following URL in your browser:
+Open:
 
 ```text
 http://localhost/CMS
@@ -240,17 +240,20 @@ http://localhost/CMS
 
 The repository includes:
 
-* `admin-panel/` — Admin-related application files
-* `adward-master/` — Project assets/files
-* `Screenshots/` — Application screenshots
-* `cms.sql` — MySQL database structure and data
-* `connect.php` — Database connection
-* `session.php` — Session-related functionality
-* `header.php` — Shared header functionality
-* `index.php` — Application entry page
-* `.gitignore` — Git configuration
+```text
+CMS/
+├── admin-panel/
+├── adward-master/
+├── Screenshots/
+├── cms.sql
+├── connect.php
+├── session.php
+├── header.php
+├── index.php
+└── .gitignore
+```
 
-The project also contains additional PHP, CSS, JavaScript, image, and asset files used by the application.
+The project also contains additional PHP, CSS, JavaScript, image, and asset files used throughout the application.
 
 ---
 
@@ -258,7 +261,7 @@ The project also contains additional PHP, CSS, JavaScript, image, and asset file
 
 All data included in this repository is **fictional/demo data** created for development and demonstration purposes.
 
-The student names, teacher names, contact information, phone numbers, photographs, and other personal information are not real.
+Student names, teacher names, contact information, phone numbers, photographs, and other personal information are not real.
 
 No real user information is intended to be included in this project.
 
@@ -288,7 +291,7 @@ This project is currently configured for **local development using XAMPP**.
 
 It has not yet been configured as a live hosted application.
 
-For deployment to a live hosting server, the database connection settings and server configuration would need to be updated according to the hosting environment.
+For deployment to a live hosting server, database connection settings and server configuration would need to be updated according to the hosting environment.
 
 ---
 
@@ -308,5 +311,7 @@ Possible future improvements include:
 ## 📄 License
 
 No open-source license has been applied to this repository.
+
+
 
 
